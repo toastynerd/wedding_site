@@ -1,0 +1,31 @@
+{
+  "name": "wedding_site",
+  "version": "0.1.0",
+  "description": "a wedding site pulling feeds from insta and twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastynerd/wedding_site.git"
+  },
+  "author": "tyler@codefellows.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toastynerd/wedding_site/issues"
+  },
+  "homepage": "https://github.com/toastynerd/wedding_site#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "mocha": "^2.2.5",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
+  }
+}
